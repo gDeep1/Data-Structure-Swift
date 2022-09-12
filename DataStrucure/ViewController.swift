@@ -18,7 +18,9 @@ class ViewController: UIViewController {
         
         // validateQueue()
         
-        validateTree()
+        // validateTree()
+        
+        towarOfHanoi()
     }
 
     
@@ -122,5 +124,9 @@ class ViewController: UIViewController {
         }
     }
 
+    func towarOfHanoi() {
+        // Recursion().towerOfHanoi(disks: 4)
+        Recursion().towerOfHanoiWithAuxSpace(disks: 4)
+    }
 }
 
