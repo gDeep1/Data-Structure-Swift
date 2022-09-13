@@ -9,6 +9,40 @@ import Foundation
 
 class Recursion {
     
+    // MARK: - Array
+    
+    /// Check if array is sorted
+    /// - Parameter array: list of array
+    /// - Returns: true if list is sorted
+    class func isArraySorted(_ array: inout [Int]) -> Bool {
+        if array.count == 1 { return true }
+        let isSmall = array[0] <= array[1]
+        array.removeLast()
+        return isSmall && isArraySorted(&array)
+    }
+    
+    /// Append List of bits with intial bit
+    /// - Parameters:
+    ///   - initialBit: 0/1
+    ///   - list: list of bits
+    /// - Returns: list of strings
+    private func appendListOfBits(with initialBit: String, _ list: [String]) -> [String] {
+        return list.map({initialBit+$0})
+    }
+    
+    /// Get all possible binary codes for given number of bits
+    /// - Parameter n: number of bits
+    /// - Returns: list of binary strings
+    class func bitStrings(for numberOfBits: Int) -> [String] {
+        if numberOfBits == 0 { return [] }
+        if numberOfBits == 1 { return ["0", "1"] }
+        
+        let listOfBinaryCodesWhereFirstBitIsZero = Recursion().appendListOfBits(with: "0", bitStrings(for: numberOfBits-1))
+        let listOfBinaryCodesWhereFirstBitIsOne = Recursion().appendListOfBits(with: "1", bitStrings(for: numberOfBits-1))
+    
+        return (listOfBinaryCodesWhereFirstBitIsZero + listOfBinaryCodesWhereFirstBitIsOne)
+    }
+    
     // MARK: - Puzzle
     // MARK: - Towars of Hanoi
     

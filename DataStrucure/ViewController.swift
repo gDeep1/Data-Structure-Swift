@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         
         // validateTree()
         
-        towarOfHanoi()
+        recursion()
     }
 
     
@@ -118,15 +118,21 @@ class ViewController: UIViewController {
 //            print(nodeValue)
 //        }
         
-        
         tree.breadthFirstSearch { nodeValue in
             print(nodeValue)
         }
     }
 
-    func towarOfHanoi() {
+    func recursion() {
         // Recursion().towerOfHanoi(disks: 4)
-        Recursion().towerOfHanoiWithAuxSpace(disks: 4)
+        // Recursion().towerOfHanoiWithAuxSpace(disks: 4)
+        
+        // var array = [220, 246, 277, 321, 454, 534, 565, 1127, 9331]
+        // let isArraySorted = Recursion.isArraySorted(&array)
+        // print("isArraySorted: \(isArraySorted)")
+        
+        let bitStrings = Recursion.bitStrings(for: 3)
+        print("bitStrings: \(bitStrings)")
     }
 }
 
