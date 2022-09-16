@@ -124,6 +124,7 @@ class ViewController: UIViewController {
     }
 
     func recursion() {
+        let recursion = Recursion()
         // Recursion().towerOfHanoi(disks: 4)
         // Recursion().towerOfHanoiWithAuxSpace(disks: 4)
         
@@ -131,8 +132,11 @@ class ViewController: UIViewController {
         // let isArraySorted = Recursion.isArraySorted(&array)
         // print("isArraySorted: \(isArraySorted)")
         
-        let bitStrings = Recursion.bitStrings(for: 3)
-        print("bitStrings: \(bitStrings)")
+        // let bitStrings = Recursion.bitStrings(for: 3)
+        // print("bitStrings: \(bitStrings)")
+        
+        let baseKStrings = recursion.baseKStrings(n: 4, k: 3)
+        print("baseKStrings: \(baseKStrings)")
     }
 }
 
