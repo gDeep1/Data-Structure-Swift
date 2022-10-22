@@ -18,9 +18,13 @@ class ViewController: UIViewController {
         
         // validateQueue()
         
-        // validateTree()
+        // TreeNode()
+        //   .validate(depthFirstSearch: true)
         
-        recursion()
+         BinaryTreeNode()
+            .validate(depthFirstSearch: false)
+        
+        // recursion()
     }
 
     
@@ -65,7 +69,7 @@ class ViewController: UIViewController {
         nameStack.push(3)
         nameStack.push("Tina 2")
         
-        nameStack.printStack()
+        nameStack.printData()
     }
     
     
@@ -77,50 +81,7 @@ class ViewController: UIViewController {
         _ = queue.dequeue()
         _ = queue.peek
         
-        queue.printStack()
-    }
-    
-    
-    private func validateTree() {
-        let hot = TreeNode("hot")
-        let cold = TreeNode("cold")
-        let tea = TreeNode("tea")
-        let coffee = TreeNode("coffee")
-        let cocoa = TreeNode("cocoa")
-        let blackTea = TreeNode("black")
-        let greenTea = TreeNode("green")
-        let chaiTea = TreeNode("chai")
-        let soda = TreeNode("soda")
-        let milk = TreeNode("milk")
-        let gingerAle = TreeNode("ginger ale")
-        let bitterLemon = TreeNode("bitter lemon")
-        
-        let tree = TreeNode("Beverages")
-        tree.add(hot)
-        tree.add(cold)
-        
-        hot.add(tea)
-        hot.add(coffee)
-        hot.add(cocoa)
-        
-        cold.add(soda)
-        cold.add(milk)
-        
-        tea.add(blackTea)
-        tea.add(greenTea)
-        tea.add(chaiTea)
-        
-        soda.add(gingerAle)
-        soda.add(bitterLemon)
-        
-        
-//        tree.depthFirstSearch { nodeValue in
-//            print(nodeValue)
-//        }
-        
-        tree.breadthFirstSearch { nodeValue in
-            print(nodeValue)
-        }
+        queue.printData()
     }
 
     func recursion() {

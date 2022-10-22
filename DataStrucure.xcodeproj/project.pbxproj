@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		54051FB628D27B940009ECE6 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54051FB528D27B940009ECE6 /* LinkedList.swift */; };
+		5412CF9C29021D6E00CB95F6 /* ComplaxBinaryTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5412CF9B29021D6E00CB95F6 /* ComplaxBinaryTreeNode.swift */; };
+		5412CF9E29021DD200CB95F6 /* BaseTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5412CF9D29021DD200CB95F6 /* BaseTreeNode.swift */; };
+		5412CFA02902232A00CB95F6 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5412CF9F2902232A00CB95F6 /* Stack.swift */; };
+		5412CFA3290232DD00CB95F6 /* BinaryTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5412CFA2290232DD00CB95F6 /* BinaryTreeNode.swift */; };
 		5450532928CECFA4006BBB69 /* Recursion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5450532828CECFA4006BBB69 /* Recursion.swift */; };
 		5494EB6E28B572F700929BC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5494EB6D28B572F700929BC4 /* AppDelegate.swift */; };
 		5494EB7028B572F700929BC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5494EB6F28B572F700929BC4 /* SceneDelegate.swift */; };
@@ -15,12 +19,16 @@
 		5494EB7528B572F700929BC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5494EB7328B572F700929BC4 /* Main.storyboard */; };
 		5494EB7728B572F900929BC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5494EB7628B572F900929BC4 /* Assets.xcassets */; };
 		5494EB7A28B572F900929BC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5494EB7828B572F900929BC4 /* LaunchScreen.storyboard */; };
-		5494EB8228B5733600929BC4 /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5494EB8128B5733600929BC4 /* Classes.swift */; };
-		5494EB8628B70DF100929BC4 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5494EB8528B70DF100929BC4 /* Tree.swift */; };
+		5494EB8228B5733600929BC4 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5494EB8128B5733600929BC4 /* Queue.swift */; };
+		5494EB8628B70DF100929BC4 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5494EB8528B70DF100929BC4 /* TreeNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		54051FB528D27B940009ECE6 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		5412CF9B29021D6E00CB95F6 /* ComplaxBinaryTreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplaxBinaryTreeNode.swift; sourceTree = "<group>"; };
+		5412CF9D29021DD200CB95F6 /* BaseTreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTreeNode.swift; sourceTree = "<group>"; };
+		5412CF9F2902232A00CB95F6 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		5412CFA2290232DD00CB95F6 /* BinaryTreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeNode.swift; sourceTree = "<group>"; };
 		5450532828CECFA4006BBB69 /* Recursion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recursion.swift; sourceTree = "<group>"; };
 		5494EB6A28B572F700929BC4 /* DataStrucure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataStrucure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5494EB6D28B572F700929BC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -30,8 +38,8 @@
 		5494EB7628B572F900929BC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5494EB7928B572F900929BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5494EB7B28B572F900929BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5494EB8128B5733600929BC4 /* Classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classes.swift; sourceTree = "<group>"; };
-		5494EB8528B70DF100929BC4 /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
+		5494EB8128B5733600929BC4 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		5494EB8528B70DF100929BC4 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5412CF9A29021D4600CB95F6 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				5412CFA12902256300CB95F6 /* Base */,
+				5494EB8528B70DF100929BC4 /* TreeNode.swift */,
+				5412CF9B29021D6E00CB95F6 /* ComplaxBinaryTreeNode.swift */,
+				5412CFA2290232DD00CB95F6 /* BinaryTreeNode.swift */,
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
+		5412CFA12902256300CB95F6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5412CF9D29021DD200CB95F6 /* BaseTreeNode.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		5494EB6128B572F700929BC4 = {
 			isa = PBXGroup;
 			children = (
@@ -71,10 +98,11 @@
 				5494EB7628B572F900929BC4 /* Assets.xcassets */,
 				5494EB7828B572F900929BC4 /* LaunchScreen.storyboard */,
 				5494EB7B28B572F900929BC4 /* Info.plist */,
-				5494EB8128B5733600929BC4 /* Classes.swift */,
-				5494EB8528B70DF100929BC4 /* Tree.swift */,
+				5494EB8128B5733600929BC4 /* Queue.swift */,
+				5412CF9A29021D4600CB95F6 /* Tree */,
 				5450532828CECFA4006BBB69 /* Recursion.swift */,
 				54051FB528D27B940009ECE6 /* LinkedList.swift */,
+				5412CF9F2902232A00CB95F6 /* Stack.swift */,
 			);
 			path = DataStrucure;
 			sourceTree = "<group>";
@@ -150,13 +178,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5412CFA3290232DD00CB95F6 /* BinaryTreeNode.swift in Sources */,
 				5450532928CECFA4006BBB69 /* Recursion.swift in Sources */,
-				5494EB8628B70DF100929BC4 /* Tree.swift in Sources */,
+				5494EB8628B70DF100929BC4 /* TreeNode.swift in Sources */,
+				5412CF9C29021D6E00CB95F6 /* ComplaxBinaryTreeNode.swift in Sources */,
 				5494EB7228B572F700929BC4 /* ViewController.swift in Sources */,
 				5494EB6E28B572F700929BC4 /* AppDelegate.swift in Sources */,
-				5494EB8228B5733600929BC4 /* Classes.swift in Sources */,
+				5494EB8228B5733600929BC4 /* Queue.swift in Sources */,
+				5412CFA02902232A00CB95F6 /* Stack.swift in Sources */,
 				5494EB7028B572F700929BC4 /* SceneDelegate.swift in Sources */,
 				54051FB628D27B940009ECE6 /* LinkedList.swift in Sources */,
+				5412CF9E29021DD200CB95F6 /* BaseTreeNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
